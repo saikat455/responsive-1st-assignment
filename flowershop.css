@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height: 110px;
+    width: 110px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo-navLink{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 160px;
+}
+.navLink{
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.navLink a, .log-sign a{
+    color: black;
+    padding: 10px;
+    border: 0 solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.navLink a:hover{
+    text-decoration: underline greenyellow;
+}
+.log-sign{
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+.log-sign .sign a{
+    color: white;
+    background-color: black;
+}
+.log-sign .login a{
+    color: white;
+    background-color: rgb(214, 23, 23);
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.pageOne{
+    padding: 25px 0 0 0;
+    display: flex;
+    width: 100%;
+    background-color: #FDF6F8;
+    justify-content: space-around;
+}
+.pageOne img{
+    margin-left: -20rem;
+}
+.pic1{
+    height: 100%;
+    width: 300px;
+}
+
+.pageOneDetails{
+    align-items: center;
+    padding: 15px 0 0 0;
+}
+.btn:hover, .btn2:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.details1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.btn{
+    background-color: rgb(229, 84, 115);
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.pageThirdDetails{
+    text-align: center;
+    align-items: center;
+}
+.pageThird{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FDF6F8;
+    border: none;
+    padding: 40px;
+}
+.picThird img {
+    margin-left: -20rem;
+    width: 210px;
+    height: 250px;
+}
+.page3rdDetail{
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.picdetail, .thirdPicdetail, .pageTwoDetail{
+    width: 35%;
+    margin: auto;
+}
+.instagram{
+    font-size: 27px;
+}
+.pageForth{
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+}
+.h2{
+    font-size: 30px;
+}
+.instagram{
+    margin-bottom: 20px;
+}
+.all-img{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.all-img img{
+    height: 230px;
+    width: 220px;
+}
+.picdetails{
+    width: 35%;
+    margin: auto;
+    color: rgb(103, 98, 92);
+}
+.picdetails1{
+    margin-top: 20px;
+    color: rgb(103, 98, 92);
+}
+
+.pageForthBox{
+    margin-top: 75px;
+    background-image: url(Rectangle\ 9.png);
+    height: 270px;
+    width: 76%;
+    margin-left: 12%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.emailBox{
+    margin-top: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 4px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn2{
+    padding: 14px;
+    border: none;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.flower{
+    color: red;
+}
+.FlowerShop{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footerDetail{
+    width: 35%;
+    margin: auto;
+    color: rgb(210, 201, 201);
+    font-size: 12px;
+}
+.footer{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    padding: 8px 0 90px 0;
+    
+}
+.h6{
+    margin-top: 20px;
+    color: rgb(103, 98, 92);
+}
+.pageTwo{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.pageTwoDetail{
+    color: rgb(103, 98, 92);
+    margin-top: 20px;
+}
+ .photos{ 
+    justify-content: center;
+    margin-top: 30px;
+    display:flex;
+    margin-bottom: 40px;
+    gap: 17px;
+}
+.photos .photoBox img{
+    border-radius: 50% 50% 0 0;
+    border: none;
+    padding-inline: 20px;
+    padding-top: 10px;
+    height: 300px;
+    width: 250px;
+}
+.photos .photoBox1 img{
+    background-color: rgb(242, 222, 232);
+}
+.photos .photoBox2 img{
+    background-color: rgb(218,240,241);
+}
+.photos .photoBox3 img{
+    background-color: rgb(228,236,220);
+}
+.pageTwoBox{
+    background-color: #F4F4F4;
+    border: 0px solid;
+    width: 67%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pageTwoBox img{
+    height: 50px;
+    width: 50px;
+}
+.nav .logo-navLink {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 0px;
+}
+.nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.log-sign {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.displayy{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .pic1 {
+        height: 100%;
+        width: 100%;
+    }
+    .pageOne img {
+        margin-left: 0rem;
+    }
+    .pageOneDetails {
+        align-items: center;
+        /* padding: 25px 0 0 0; */
+        padding-inline: 5%;
+    }
+    .navLink {
+        /* display: flex; */
+        gap: 30px;
+        font-weight: 700;
+        font-size: 18px;
+        flex-direction: column;
+    }
+    .pageOne {
+        padding: 25px 0 0 0;
+        /* display: flex; */
+        width: 100%;
+        background-color: #FDF6F8;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .picdetails{
+        width: 100%;
+        margin: auto;
+        color: rgb(103, 98, 92);
+    }
+    .picThird img {
+        margin-left: 0rem;
+        width: 100%;
+        height: 100%;
+    }
+    .photos {
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        margin-bottom: 40px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .photos .photoBox img {
+        border-radius: 50% 50% 0 0;
+        border: none;
+        padding-inline: 20px;
+        padding-top: 10px;
+        height: 250px;
+        width: 80%;
+    }
+    .picdetail, .thirdPicdetail, .pageTwoDetail {
+        width: 100%;
+        /* margin: auto; */
+    }
+    .pageForth{
+        flex-direction: column;
+    }
+    .all-img{
+        flex-direction: column;
+        /* padding: 100px; */
+        /* align-items: center; */
+    }
+    .all-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .pageForthBox .emailBox{
+        width: 100px;
+    }
+    .pageThird{
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #FDF6F8;
+        border: none;
+        padding: 40px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .pageForth{
+        flex-direction: column;
+    }
+    .all-img{
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        /* align-items: center; */
+    }
+    .pageForthBox .emailBox{
+        width: 100px;
+    }
+}
+    
